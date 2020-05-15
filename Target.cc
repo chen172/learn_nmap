@@ -874,7 +874,7 @@ static int nmap_services_init() {
 #endif
   }
 	#endif
-	strncpy(filename, "/home/chenliang/桌面/nmap-master/nmap-services", 49);
+	strncpy(filename, "your nmap services file", 49);
 	printf("filename is %s\n", filename);
 	//打开文件
   fp = fopen(filename, "r");
